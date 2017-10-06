@@ -14,12 +14,12 @@
    <table>
      <?php
         echo "<tr>";
-        for($x=0; $x<$columns; $x++){
+        for($x=0; $x<=$columns; $x++){
           echo "<td class='cabecera'>".($x)."</td>";
         }
         for($x=1; $x<=$filas; $x++){
           echo "<tr>";
-          for($y=0; $y<$columns; $y++){
+          for($y=0; $y<=$columns; $y++){
 
             if($x==0 && $y == 0){
               echo "<td>".$x."</td>";
